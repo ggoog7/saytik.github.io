@@ -1,0 +1,151 @@
+<<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barbershop</title>
+</head>
+<body>
+    <!-- Шапка -->
+    <header>
+        <nav>
+            <a href="#">Barbershop</a>
+            <ul>
+                <li><a href="#reviews">Отзывы</a></li>
+                <li><a href="#services">Услуги</a></li>
+                <li><a href="#masters">Мастера</a></li>
+                <li><a href="#booking">Записаться</a></li>
+            </ul>
+            <a href="tel:+79991234567">+7(999)123-45-67</a>
+        </nav>
+    </header>
+
+    <!-- Главный заголовок -->
+    <section>
+        <h1>Создаем ваш уникальный стиль</h1>
+        <p>Профессиональные мастера и атмосфера премиум-класса</p>
+        <a href="#booking">Записаться онлайн</a>
+    </section>
+
+    <!-- Отзывы -->
+    <section id="reviews">
+        <h2>Отзывы</h2>
+        <div>
+            <div>
+                <p>"Лучшая стрижка в моей жизни! Мастер Александр настоящий профессионал. Обязательно вернусь снова."</p>
+                <div>- Дмитрий Иванов</div>
+            </div>
+            <div>
+                <p>"Атмосфера как в старинном барбершопе, качество услуг на высшем уровне. Рекомендую всем!"</p>
+                <div>- Сергей Петров</div>
+            </div>
+            <div>
+                <p>"Отличное место для настоящих мужчин. Делают идеальные стрижки и бороды. Персонал очень вежливый."</p>
+                <div>- Андрей Смирнов</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Услуги -->
+    <section id="services">
+        <h2>Услуги</h2>
+        <div>
+            <div>
+                <h3>Мужская стрижка</h3>
+                <p>Профессиональная стрижка с учетом особенностей волос и формы головы</p>
+                <div>1500 руб.</div>
+            </div>
+            <div>
+                <h3>Стрижка бороды</h3>
+                <p>Корректировка формы бороды и усов с использованием профессиональных средств</p>
+                <div>1000 руб.</div>
+            </div>
+            <div>
+                <h3>Королевское бритье</h3>
+                <p>Бритье опасной бритвой с распариванием и использованием аромамасел</p>
+                <div>2000 руб.</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Мастера -->
+    <section id="masters">
+        <h2>Наши мастера</h2>
+        <div>
+            <div>
+                <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Мастер Александр" width="300">
+                <div>
+                    <h3>Александр</h3>
+                    <p>Старший барбер с 10-летним опытом</p>
+                </div>
+            </div>
+            <div>
+                <img src="https://images.unsplash.com/photo-1564564321837-a57b7070ac4f?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Мастер Михаил" width="300">
+                <div>
+                    <h3>Михаил</h3>
+                    <p>Специалист по креативным стрижкам</p>
+                </div>
+            </div>
+            <div>
+                <img src="https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Мастер Денис" width="300">
+                <div>
+                    <h3>Денис</h3>
+                    <p>Эксперт по бородам и усам</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Запись онлайн -->
+    <section id="booking">
+        <h2>Записаться онлайн</h2>
+        <form>
+            <div>
+                <label for="name">Ваше имя</label>
+                <input type="text" id="name" required>
+            </div>
+            <div>
+                <label for="phone">Телефон</label>
+                <input type="tel" id="phone" required>
+            </div>
+            <div>
+                <label for="service">Услуга</label>
+                <select id="service">
+                    <option value="haircut">Мужская стрижка</option>
+                    <option value="beard">Стрижка бороды</option>
+                    <option value="shave">Королевское бритье</option>
+                    <option value="complex">Комплекс услуг</option>
+                </select>
+            </div>
+            <div>
+                <label for="master">Мастер</label>
+                <select id="master">
+                    <option value="any">Любой мастер</option>
+                    <option value="alexander">Александр</option>
+                    <option value="mikhail">Михаил</option>
+                    <option value="denis">Денис</option>
+                </select>
+            </div>
+            <div>
+                <label for="date">Дата и время</label>
+                <input type="datetime-local" id="date" required>
+            </div>
+            <button type="submit">Подтвердить запись</button>
+        </form>
+    </section>
+
+    <!-- Футер -->
+    <footer>
+        <div>
+            <a href="#">Barbershop</a>
+            <a href="tel:+79991234567">+7(999)123-45-67</a>
+            <div>
+                <a href="#">VK</a>
+            
+                <a href="#">Telegram</a>
+            </div>
+            <p>© 2023 Barbershop. Все права защищены.</p>
+        </div>
+    </footer>
+</body>
+</html>
